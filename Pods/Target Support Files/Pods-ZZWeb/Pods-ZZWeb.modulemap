@@ -1,0 +1,6 @@
+framework module Pods_ZZWeb {
+  umbrella header "Pods-ZZWeb-umbrella.h"
+
+  export *
+  module * { export * }
+}

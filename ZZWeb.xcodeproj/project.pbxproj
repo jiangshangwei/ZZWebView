@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B390F332844FEE100ACC87E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B390F322844FEE100ACC87E /* AppDelegate.m */; };
+		7B390F362844FEE100ACC87E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B390F352844FEE100ACC87E /* SceneDelegate.m */; };
+		7B390F392844FEE100ACC87E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B390F382844FEE100ACC87E /* ViewController.m */; };
+		7B390F3C2844FEE100ACC87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B390F3A2844FEE100ACC87E /* Main.storyboard */; };
+		7B390F3E2844FEE300ACC87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B390F3D2844FEE300ACC87E /* Assets.xcassets */; };
+		7B390F412844FEE300ACC87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B390F3F2844FEE300ACC87E /* LaunchScreen.storyboard */; };
+		7B390F442844FEE300ACC87E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B390F432844FEE300ACC87E /* main.m */; };
+		7B390F4E2844FEE400ACC87E /* ZZWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B390F4D2844FEE400ACC87E /* ZZWebTests.m */; };
+		7B390F582844FEE400ACC87E /* ZZWebUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B390F572844FEE400ACC87E /* ZZWebUITests.m */; };
+		7B390F5A2844FEE400ACC87E /* ZZWebUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B390F592844FEE400ACC87E /* ZZWebUITestsLaunchTests.m */; };
+		7BA26645285F2A600009754D /* QDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA26644285F2A600009754D /* QDViewController.m */; };
+		DC194FFC6332DDEEBAA35614 /* Pods_ZZWebTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189B335E56DD44C73E11E9D6 /* Pods_ZZWebTests.framework */; };
+		E5483D648141BD84D84C3E08 /* Pods_ZZWeb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F412F21C3C7BF86EAEA94A5C /* Pods_ZZWeb.framework */; };
+		E5FF09A620A5E9816E421241 /* Pods_ZZWeb_ZZWebUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB75C9D019EF120FD3B390A /* Pods_ZZWeb_ZZWebUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B390F4A2844FEE400ACC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B390F262844FEE100ACC87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B390F2D2844FEE100ACC87E;
+			remoteInfo = ZZWeb;
+		};
+		7B390F542844FEE400ACC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B390F262844FEE100ACC87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B390F2D2844FEE100ACC87E;
+			remoteInfo = ZZWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0736915F72D97C148A51EE28 /* Pods-ZZWeb-ZZWebUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZWeb-ZZWebUITests.release.xcconfig"; path = "Target Support Files/Pods-ZZWeb-ZZWebUITests/Pods-ZZWeb-ZZWebUITests.release.xcconfig"; sourceTree = "<group>"; };
+		189B335E56DD44C73E11E9D6 /* Pods_ZZWebTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZWebTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADC7A599AD13FB391BD3D53 /* Pods-ZZWebTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZWebTests.debug.xcconfig"; path = "Target Support Files/Pods-ZZWebTests/Pods-ZZWebTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BB75C9D019EF120FD3B390A /* Pods_ZZWeb_ZZWebUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZWeb_ZZWebUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3556334C843BF824201C1D /* Pods-ZZWeb-ZZWebUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZWeb-ZZWebUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZZWeb-ZZWebUITests/Pods-ZZWeb-ZZWebUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B390F2E2844FEE100ACC87E /* ZZWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B390F312844FEE100ACC87E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B390F322844FEE100ACC87E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B390F342844FEE100ACC87E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7B390F352844FEE100ACC87E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7B390F372844FEE100ACC87E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B390F382844FEE100ACC87E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B390F3B2844FEE100ACC87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B390F3D2844FEE300ACC87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B390F402844FEE300ACC87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B390F422844FEE300ACC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B390F432844FEE300ACC87E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B390F492844FEE400ACC87E /* ZZWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B390F4D2844FEE400ACC87E /* ZZWebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWebTests.m; sourceTree = "<group>"; };
+		7B390F532844FEE400ACC87E /* ZZWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B390F572844FEE400ACC87E /* ZZWebUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWebUITests.m; sourceTree = "<group>"; };
+		7B390F592844FEE400ACC87E /* ZZWebUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWebUITestsLaunchTests.m; sourceTree = "<group>"; };
+		7BA26643285F2A600009754D /* QDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDViewController.h; sourceTree = "<group>"; };
+		7BA26644285F2A600009754D /* QDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDViewController.m; sourceTree = "<group>"; };
+		B66E5E94BBA79B2179743BE2 /* Pods-ZZWeb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZWeb.release.xcconfig"; path = "Target Support Files/Pods-ZZWeb/Pods-ZZWeb.release.xcconfig"; sourceTree = "<group>"; };
+		DE82749C4529FF49171A6D95 /* Pods-ZZWebTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZWebTests.release.xcconfig"; path = "Target Support Files/Pods-ZZWebTests/Pods-ZZWebTests.release.xcconfig"; sourceTree = "<group>"; };
+		F412F21C3C7BF86EAEA94A5C /* Pods_ZZWeb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZWeb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD3D03DBB803D8B63108B10 /* Pods-ZZWeb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZWeb.debug.xcconfig"; path = "Target Support Files/Pods-ZZWeb/Pods-ZZWeb.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B390F2B2844FEE100ACC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5483D648141BD84D84C3E08 /* Pods_ZZWeb.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B390F462844FEE400ACC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC194FFC6332DDEEBAA35614 /* Pods_ZZWebTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B390F502844FEE400ACC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FF09A620A5E9816E421241 /* Pods_ZZWeb_ZZWebUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B390F252844FEE100ACC87E = {
+			isa = PBXGroup;
+			children = (
+				7B390F302844FEE100ACC87E /* ZZWeb */,
+				7B390F4C2844FEE400ACC87E /* ZZWebTests */,
+				7B390F562844FEE400ACC87E /* ZZWebUITests */,
+				7B390F2F2844FEE100ACC87E /* Products */,
+				DF2B326586F44C9022E030B8 /* Pods */,
+				AB51CE815CE52DA963987681 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B390F2F2844FEE100ACC87E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B390F2E2844FEE100ACC87E /* ZZWeb.app */,
+				7B390F492844FEE400ACC87E /* ZZWebTests.xctest */,
+				7B390F532844FEE400ACC87E /* ZZWebUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B390F302844FEE100ACC87E /* ZZWeb */ = {
+			isa = PBXGroup;
+			children = (
+				7B390F312844FEE100ACC87E /* AppDelegate.h */,
+				7B390F322844FEE100ACC87E /* AppDelegate.m */,
+				7B390F342844FEE100ACC87E /* SceneDelegate.h */,
+				7B390F352844FEE100ACC87E /* SceneDelegate.m */,
+				7B390F372844FEE100ACC87E /* ViewController.h */,
+				7B390F382844FEE100ACC87E /* ViewController.m */,
+				7B390F3A2844FEE100ACC87E /* Main.storyboard */,
+				7B390F3D2844FEE300ACC87E /* Assets.xcassets */,
+				7B390F3F2844FEE300ACC87E /* LaunchScreen.storyboard */,
+				7B390F422844FEE300ACC87E /* Info.plist */,
+				7B390F432844FEE300ACC87E /* main.m */,
+				7BA26643285F2A600009754D /* QDViewController.h */,
+				7BA26644285F2A600009754D /* QDViewController.m */,
+			);
+			path = ZZWeb;
+			sourceTree = "<group>";
+		};
+		7B390F4C2844FEE400ACC87E /* ZZWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B390F4D2844FEE400ACC87E /* ZZWebTests.m */,
+			);
+			path = ZZWebTests;
+			sourceTree = "<group>";
+		};
+		7B390F562844FEE400ACC87E /* ZZWebUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B390F572844FEE400ACC87E /* ZZWebUITests.m */,
+				7B390F592844FEE400ACC87E /* ZZWebUITestsLaunchTests.m */,
+			);
+			path = ZZWebUITests;
+			sourceTree = "<group>";
+		};
+		AB51CE815CE52DA963987681 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F412F21C3C7BF86EAEA94A5C /* Pods_ZZWeb.framework */,
+				5BB75C9D019EF120FD3B390A /* Pods_ZZWeb_ZZWebUITests.framework */,
+				189B335E56DD44C73E11E9D6 /* Pods_ZZWebTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF2B326586F44C9022E030B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBD3D03DBB803D8B63108B10 /* Pods-ZZWeb.debug.xcconfig */,
+				B66E5E94BBA79B2179743BE2 /* Pods-ZZWeb.release.xcconfig */,
+				5C3556334C843BF824201C1D /* Pods-ZZWeb-ZZWebUITests.debug.xcconfig */,
+				0736915F72D97C148A51EE28 /* Pods-ZZWeb-ZZWebUITests.release.xcconfig */,
+				2ADC7A599AD13FB391BD3D53 /* Pods-ZZWebTests.debug.xcconfig */,
+				DE82749C4529FF49171A6D95 /* Pods-ZZWebTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B390F2D2844FEE100ACC87E /* ZZWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B390F5D2844FEE400ACC87E /* Build configuration list for PBXNativeTarget "ZZWeb" */;
+			buildPhases = (
+				48C3BEEF6E0DE8E83F721716 /* [CP] Check Pods Manifest.lock */,
+				7B390F2A2844FEE100ACC87E /* Sources */,
+				7B390F2B2844FEE100ACC87E /* Frameworks */,
+				7B390F2C2844FEE100ACC87E /* Resources */,
+				6BE1744D447F402FD0CB7B2F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZWeb;
+			productName = ZZWeb;
+			productReference = 7B390F2E2844FEE100ACC87E /* ZZWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B390F482844FEE400ACC87E /* ZZWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B390F602844FEE400ACC87E /* Build configuration list for PBXNativeTarget "ZZWebTests" */;
+			buildPhases = (
+				F189C2F255FD31EAEA057E6E /* [CP] Check Pods Manifest.lock */,
+				7B390F452844FEE400ACC87E /* Sources */,
+				7B390F462844FEE400ACC87E /* Frameworks */,
+				7B390F472844FEE400ACC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B390F4B2844FEE400ACC87E /* PBXTargetDependency */,
+			);
+			name = ZZWebTests;
+			productName = ZZWebTests;
+			productReference = 7B390F492844FEE400ACC87E /* ZZWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B390F522844FEE400ACC87E /* ZZWebUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B390F632844FEE400ACC87E /* Build configuration list for PBXNativeTarget "ZZWebUITests" */;
+			buildPhases = (
+				F4D505F98087FF2FAC69F1A8 /* [CP] Check Pods Manifest.lock */,
+				7B390F4F2844FEE400ACC87E /* Sources */,
+				7B390F502844FEE400ACC87E /* Frameworks */,
+				7B390F512844FEE400ACC87E /* Resources */,
+				CD08BFBC52A7C984D5EA6FB2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B390F552844FEE400ACC87E /* PBXTargetDependency */,
+			);
+			name = ZZWebUITests;
+			productName = ZZWebUITests;
+			productReference = 7B390F532844FEE400ACC87E /* ZZWebUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B390F262844FEE100ACC87E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7B390F2D2844FEE100ACC87E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					7B390F482844FEE400ACC87E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7B390F2D2844FEE100ACC87E;
+					};
+					7B390F522844FEE400ACC87E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7B390F2D2844FEE100ACC87E;
+					};
+				};
+			};
+			buildConfigurationList = 7B390F292844FEE100ACC87E /* Build configuration list for PBXProject "ZZWeb" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B390F252844FEE100ACC87E;
+			productRefGroup = 7B390F2F2844FEE100ACC87E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B390F2D2844FEE100ACC87E /* ZZWeb */,
+				7B390F482844FEE400ACC87E /* ZZWebTests */,
+				7B390F522844FEE400ACC87E /* ZZWebUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B390F2C2844FEE100ACC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B390F412844FEE300ACC87E /* LaunchScreen.storyboard in Resources */,
+				7B390F3E2844FEE300ACC87E /* Assets.xcassets in Resources */,
+				7B390F3C2844FEE100ACC87E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B390F472844FEE400ACC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B390F512844FEE400ACC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48C3BEEF6E0DE8E83F721716 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZWeb-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BE1744D447F402FD0CB7B2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZWeb/Pods-ZZWeb-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZWeb/Pods-ZZWeb-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZWeb/Pods-ZZWeb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD08BFBC52A7C984D5EA6FB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZWeb-ZZWebUITests/Pods-ZZWeb-ZZWebUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZWeb-ZZWebUITests/Pods-ZZWeb-ZZWebUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZWeb-ZZWebUITests/Pods-ZZWeb-ZZWebUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F189C2F255FD31EAEA057E6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZWebTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D505F98087FF2FAC69F1A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZWeb-ZZWebUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B390F2A2844FEE100ACC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B390F392844FEE100ACC87E /* ViewController.m in Sources */,
+				7B390F332844FEE100ACC87E /* AppDelegate.m in Sources */,
+				7BA26645285F2A600009754D /* QDViewController.m in Sources */,
+				7B390F442844FEE300ACC87E /* main.m in Sources */,
+				7B390F362844FEE100ACC87E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B390F452844FEE400ACC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B390F4E2844FEE400ACC87E /* ZZWebTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B390F4F2844FEE400ACC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B390F582844FEE400ACC87E /* ZZWebUITests.m in Sources */,
+				7B390F5A2844FEE400ACC87E /* ZZWebUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B390F4B2844FEE400ACC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B390F2D2844FEE100ACC87E /* ZZWeb */;
+			targetProxy = 7B390F4A2844FEE400ACC87E /* PBXContainerItemProxy */;
+		};
+		7B390F552844FEE400ACC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B390F2D2844FEE100ACC87E /* ZZWeb */;
+			targetProxy = 7B390F542844FEE400ACC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B390F3A2844FEE100ACC87E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B390F3B2844FEE100ACC87E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B390F3F2844FEE300ACC87E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B390F402844FEE300ACC87E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B390F5B2844FEE400ACC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B390F5C2844FEE400ACC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B390F5E2844FEE400ACC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD3D03DBB803D8B63108B10 /* Pods-ZZWeb.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG68N7R6X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZZWeb/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B390F5F2844FEE400ACC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66E5E94BBA79B2179743BE2 /* Pods-ZZWeb.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG68N7R6X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZZWeb/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B390F612844FEE400ACC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ADC7A599AD13FB391BD3D53 /* Pods-ZZWebTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG68N7R6X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZWeb.app/ZZWeb";
+			};
+			name = Debug;
+		};
+		7B390F622844FEE400ACC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE82749C4529FF49171A6D95 /* Pods-ZZWebTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG68N7R6X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZWeb.app/ZZWeb";
+			};
+			name = Release;
+		};
+		7B390F642844FEE400ACC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C3556334C843BF824201C1D /* Pods-ZZWeb-ZZWebUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG68N7R6X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZWeb;
+			};
+			name = Debug;
+		};
+		7B390F652844FEE400ACC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0736915F72D97C148A51EE28 /* Pods-ZZWeb-ZZWebUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG68N7R6X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZWeb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B390F292844FEE100ACC87E /* Build configuration list for PBXProject "ZZWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B390F5B2844FEE400ACC87E /* Debug */,
+				7B390F5C2844FEE400ACC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B390F5D2844FEE400ACC87E /* Build configuration list for PBXNativeTarget "ZZWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B390F5E2844FEE400ACC87E /* Debug */,
+				7B390F5F2844FEE400ACC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B390F602844FEE400ACC87E /* Build configuration list for PBXNativeTarget "ZZWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B390F612844FEE400ACC87E /* Debug */,
+				7B390F622844FEE400ACC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B390F632844FEE400ACC87E /* Build configuration list for PBXNativeTarget "ZZWebUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B390F642844FEE400ACC87E /* Debug */,
+				7B390F652844FEE400ACC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B390F262844FEE100ACC87E /* Project object */;
+}
